@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "8f1c2ac1-466a-4727-a005-34f71e262263",
+		"name": "Convertidor de unidades",
+		"description": "Esta es la coleccion de postman del primer ejercicio de del taller de final de corte.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47975338",
+		"_collection_link": "https://ivan-leyva-s-team.postman.co/workspace/Team-Workspace~d4583987-bd96-4549-89cd-e652b8646d64/collection/47975338-8f1c2ac1-466a-4727-a005-34f71e262263?action=share&source=collection_link&creator=47975338"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/convert/celsius-to-fahrenheit/23",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/convert/celsius-to-fahrenheit/23",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"convert",
+						"celsius-to-fahrenheit",
+						"23"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/convert/fahrenheit-to-celsius/:value",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/convert/fahrenheit-to-celsius/:value",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"convert",
+						"fahrenheit-to-celsius",
+						":value"
+					],
+					"variable": [
+						{
+							"key": "value",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/convert/km-to-miles/15",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/convert/km-to-miles/15",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"convert",
+						"km-to-miles",
+						"15"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
